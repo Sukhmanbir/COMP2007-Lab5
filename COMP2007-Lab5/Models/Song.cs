@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
 namespace COMP2007_Lab5.Models
 {
-    class Song
+    public class Song
     {
-        public int SongID { get; set; }
-        public string Name { get; set; }
-        public int Duration { get; set; }
+        public virtual int SongID { get; set; }
+        public virtual string Name { get; set; }
+        public virtual int Duration { get; set; }
     }
 }
